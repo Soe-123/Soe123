@@ -1,0 +1,60 @@
+
+
+/* Overview Grid */
+
+.project-link {
+    margin: 0;
+    flex-basis: 33.3333%;
+    padding: 20px;
+    object-fit: contain;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+   
+}
+
+figcaption {
+    font-family: helvetica;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+    .overview {
+        margin-left: 0;  
+    }
+
+    .project-link {
+        flex-basis: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .overview {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-link {
+        margin: 0;
+        flex-basis: 100%;
+        padding: 20px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+}
