@@ -49,6 +49,20 @@ dd {
     color: rgb(170, 170, 170);
 }
 
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 57px);
+}
+
+.mySlides {
+height: auto;
+margin: 0 auto;
+max-height: 80vh;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         flex-wrap: wrap;
