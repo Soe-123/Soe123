@@ -47,6 +47,11 @@ figcaption {
     font-size: 12px;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 @media screen and (max-width: 1000px) {
 
     section {
