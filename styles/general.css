@@ -98,5 +98,14 @@ max-height: 80vh;
 
     header div:last-of-type {
         padding: 20px 20px 20px 10px;
-        }       
+        }   
+        
+        .slideshow {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 15vh);
+        }
+        
 }
