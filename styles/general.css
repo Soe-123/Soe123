@@ -63,6 +63,30 @@ margin: 0 auto;
 max-height: 80vh;
 }
 
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: opacity 0.3s linear;
+    transition-delay: 1.5s;
+    pointer-events: none;
+  }
+
+
+  .preloader h2{
+    font-family: helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 2.5vw;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         flex-wrap: wrap;
@@ -78,6 +102,13 @@ max-height: 80vh;
 
     header div:nth-of-type(2) {
         margin-left: auto;
+    }
+
+    .preloader h2{
+        font-family: helvetica;
+        font-weight: 400;
+        color: white;
+        font-size: 5vw;
     }
 }
 
