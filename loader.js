@@ -10,6 +10,6 @@ const fadeEffect = setInterval(() => {
   } else {
     clearInterval(fadeEffect);
   }
-}, 200);
+}, 100);
 
 window.addEventListener('load', fadeEffect);

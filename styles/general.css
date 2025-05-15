@@ -75,7 +75,7 @@ max-height: 80vh;
     left: 0;
     z-index: 999;
     transition: opacity 0.3s linear;
-    transition-delay: 1.5s;
+    transition-delay: 1s;
     pointer-events: none;
   }
 
@@ -83,7 +83,7 @@ max-height: 80vh;
   .preloader h2{
     font-family: helvetica;
     font-weight: 400;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2.5vw;
 }
 
