@@ -83,7 +83,7 @@ max-height: 80vh;
   .preloader h2{
     font-family: helvetica;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
     font-size: 2.5vw;
 }
 
