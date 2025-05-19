@@ -53,9 +53,18 @@ section .project-img-container.ten {
 }
 
 section .project-img-container picture {
+    position: relative;
     padding: 20px 0 20px 20px;
 }
 
+picture p {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: helvetica;
+    margin: 0;
+    font-size: 12px;
+}
 
 iframe {
 	aspect-ratio: 4 / 3;
@@ -138,6 +147,15 @@ iframe {
         height: 100%;
         display: block;
     }
+
+    picture p {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: helvetica;
+    margin: 0;
+    font-size: 12px;
+}
 }
 
 
