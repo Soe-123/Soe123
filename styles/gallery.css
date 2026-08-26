@@ -46,8 +46,8 @@ figure figcaption:nth-of-type(2) {
         margin-left: 0;  
     }
 
-    .project-link {
-        flex-basis: 50%;
+    .artwork {
+        max-width: calc(50% - 15px);
     }
 
 }
@@ -58,11 +58,7 @@ figure figcaption:nth-of-type(2) {
         flex-direction: column;
     }
     
-    .project-link {
-        margin: 0;
-        flex-basis: 100%;
-        padding: 20px;
-        object-fit: contain;
-        overflow: hidden;
+    .artwork {
+        max-width: 100%;
     }
 }
